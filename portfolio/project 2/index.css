@@ -1,0 +1,832 @@
+body{
+  background-color: lightyellow;
+}
+
+/* animated header block */
+
+.headerblock{
+  height: 100px;
+  position: relative;
+}
+
+.headerblock img{
+  height: 100%;
+  width: 10%;
+  float: left;
+  border: 2px solid rgb(119, 120, 60);
+  border-radius: 4px;
+  animation-name: josaphinalogo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes josaphinalogo {
+  0% {transform: scale(0.2)
+    ;}
+    20%{transform: scale(1.0);}
+    100%{transform: scale(0.2);}
+
+}
+
+.headerblock div{
+  text-align: center;
+  margin-right: 260px;
+}
+
+.title h1{
+  color:rgb(161,152,56);
+  position: absolute;
+  left: 12%;
+  animation-name: josaphinabodycare;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes josaphinabodycare {
+  0%{top: 12%}
+
+  50%{top: 85%}
+
+  100%{top: 12%}
+
+}
+
+@keyframes discoverexotic {
+  0%{top: -12%}
+
+  50%{top:-40%}
+
+  100% {top: 80%}
+
+
+
+}
+
+.title h4{
+  position: absolute;
+  left: 12%;
+  top: 40%;
+  animation-name: discoverexotic;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+/* slideshowblock */
+
+.slidegroup{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+margin: auto;
+  overflow: hidden;
+}
+
+.slidewrapper{
+  height: 100%;
+  width: 300%;
+  
+  animation-name: slideyslide;
+  animation-duration: 20s;
+  animation-iteration-count:infinite ;
+}
+
+
+
+.slide{
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+@keyframes slideyslide {
+
+  0% {margin-left:0% }
+25% {margin-left:-100%}
+50% {margin-left:-190%}
+75% {margin-right:190%}
+100% {margin-right: 100%}
+}
+
+.group1{
+  background-color: yellow;
+  background-size: 100% 100%;
+
+}
+
+.group2{
+background-color: brown;
+background-size: 100% 100%;
+}
+
+.group3{
+  background-color: rgb(140, 105, 72);
+  background-size: 100% 100%;
+}
+
+/* heroblock */
+
+.heroblock{
+  height: 700px;
+  background-image: url(images/intro_img2.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.heroblock p{
+  border: 2px solid white;
+  background-color: rgba(219,216,204,0.8);
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  text-align: center;
+  padding-top: 3%;
+  top: 20%;
+  left: 5%;
+
+}
+
+/* two by two block */
+
+.twobytwoblock{
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+}
+
+.imageblock{
+  height: 100%;
+  width: 40%;
+  background-image: url(images/intro_img1.jpg);
+  opacity: 60%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 15px;
+}
+
+.imageblock p{
+  border: 2px solid yellow;
+  color: white;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  margin-left: 20%;
+  padding-top: 2%;
+
+}
+
+.textblock{
+  border: 2px solid #ccbed1;
+  background-color: rgb(245,244,218);
+  height: 100%;
+  width: 40%;
+  float: right;
+  margin-right: 15px;
+}
+
+.textblock p{
+  color: rgb(161,152,56);
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+/* one product block */
+
+.singleproduct{
+
+  height: 550px;
+  width: 100%;
+}
+
+.sakuralotion{
+
+  height: 100%;
+  width: 30%;
+  float: left;
+  text-align: center;
+
+}
+
+.sakuralotion img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.sakuralotion a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.sakuralotion abbr{
+  text-decoration: none;
+}
+.sakuralotion a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.sakuralotion h5{
+  color: rgb(161,152,56);
+}
+
+.ayurvedalotion{
+
+  height: 100%;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.ayurvedalotion img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.ayurvedalotion a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.ayurvedalotion abbr{
+  text-decoration: none;
+}
+.ayurvedalotion a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.ayurvedalotion h5{
+  color: rgb(161,152,56);
+}
+
+.bodylotion{
+
+  height: 100%;
+  width: 30%;
+  float: right;
+  margin-top: -555px;
+  text-align: center;
+}
+
+.bodylotion img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.bodylotion a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.bodylotion a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.bodylotion abbr{
+  text-decoration: none;
+}
+
+.bodylotion h5{
+  color: rgb(161,152,56);
+}
+
+/* modal window */
+
+.window1{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window1:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message1{
+background-color: white;
+width: 35%;
+height:400px;
+margin: auto;
+margin-top:10%;
+}
+
+.message1> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message1> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain1{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message1 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+.window2{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message2{
+background-color: white;
+width: 35%;
+height:400px;
+margin: auto;
+margin-top:10%;
+}
+
+.message2> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message2> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain2{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag2{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message2 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+
+.window3{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window3:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message3{
+background-color: white;
+width: 35%;
+height:400px;
+margin: auto;
+margin-top:10%;
+}
+
+.message3> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message3> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain3{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag3{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message3 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+/* giftset block */
+
+.giftsets{
+
+  height: 550px;
+  width: 100%;
+}
+
+.Ayurvedagiftset{
+
+  height: 100%;
+  width: 30%;
+  float: left;
+  text-align: center;
+
+}
+
+.Ayurvedagiftset img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.Ayurvedagiftset a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.Ayurvedagiftset abbr{
+  text-decoration: none;
+}
+.Ayurvedagiftset a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.Ayurvedagiftset h5{
+  color: rgb(161,152,56);
+}
+
+.sakuragiftset{
+
+  height: 100%;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.sakuragiftset img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.sakuragiftset a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.sakuragiftset abbr{
+  text-decoration: none;
+}
+.sakuragiftset a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.sakuragiftset h5{
+  color: rgb(161,152,56);
+}
+
+.karmagiftset{
+
+  height: 100%;
+  width: 30%;
+  float: right;
+  margin-top: -555px;
+  text-align: center;
+}
+
+.karmagiftset img{
+  margin-top: 15%;
+  height: 40%;
+  width: 60%;
+}
+
+.karmagiftset a{
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+.karmagiftset a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.karmagiftset abbr{
+  text-decoration: none;
+}
+
+.karmagiftset h5{
+  color: rgb(161,152,56);
+}
+
+/* gidtset modal window */
+
+.window4{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window4:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message4{
+background-color: white;
+width: 33%;
+height:500px;
+margin: auto;
+margin-top:10%;
+}
+
+.message4> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message4> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain4{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag4{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message4 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+.window5{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window5:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message5{
+background-color: white;
+width: 33%;
+height:500px;
+margin: auto;
+margin-top:10%;
+}
+
+.message5> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message5> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain5{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag5{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message5 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+.window6{
+  background-color: rgb(184, 184, 182; 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.window6:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.message6{
+background-color: white;
+width: 33%;
+height:550px;
+margin: auto;
+margin-top:10%;
+}
+
+.message6> a{
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.message6> img{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.explain6{
+  float: left;
+  background-color: lightgrey;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.inthebag6{
+padding-top: 5%;
+  margin-left: 10%;
+}
+
+.message6 button{
+  border-radius: 4px;
+  border-color: white;
+  padding: 3px;
+}
+
+/* footer */
+
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(26, 26, 13);
+  color: white;
+
+
+}
+
+.footerinformation{
+  /* border: 2px solid yellow; */
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.help{
+  /* border:2px solid rgb(26, 26, 13); */
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  left: 2%;
+  position:absolute;
+  top: -3%;
+
+}
+
+
+
+.account{
+  /* border:2px solid blue; */
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  left: 8%;
+  top: -3%;
+}
+.subscribe{
+  /* border:2px solid green; */
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: -3%;
+  left: 21%;
+}
+
+.membercard{
+  /* border:2px solid purple; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: -3%;
+  left: 35%;
+
+}
+
+
+
+.connect{
+  /* border: 2px solid pink; */
+  height: 200px;
+  width: 30%;
+  text-align: center;
+  float: right;
+}
+
+.icon{
+  height:20%;
+}
+
+.empty{
+  border:1px ;
+  height: 150px;
+  width:100%;
+}
+
+.rachel{
+  /* border: 2px solid pink; */
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-left: 32%;
+}
